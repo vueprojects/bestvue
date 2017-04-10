@@ -1,0 +1,52 @@
+@mixin border-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@mixin flex1
+{
+   -webkit-flex: 1;
+      -moz-flex: 1;
+       -ms-flex: 1;
+        -o-flex: 1;
+           flex: 1;
+}
+@mixin flex
+{
+    display: -webkit-flex;
+    display:         flex;
+}
+@mixin clear{
+    font-size: 0;
+
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+}
+@mixin translate50{
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+@mixin rotate($deg){
+  -webkit-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
+}
+@mixin shadow($shadow){
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin arrow{
+  content:'';
+  position: absolute;
+  width:0;
+  height:0;
+}

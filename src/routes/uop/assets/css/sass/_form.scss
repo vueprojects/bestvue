@@ -1,0 +1,97 @@
+input[type=text],input[type=number]{
+	$shadowSize:8px;
+	$inputFontSize:32rem / $baseFontSize;
+
+	background-color:rgba(0,0,0,0.70);
+	border:2px solid $disableColor;
+	box-shadow:0 0 $shadowSize 0 #0076ff, inset 0 1px $shadowSize 0 #0076ff;
+	height:$inputH;
+	// line-height:$inputH;
+	padding:($inputH - $inputFontSize) / 2 0;
+	outline:none;
+	@include border-box;
+	font-family:PingFangSC-Regular;
+	font-size:$inputFontSize;
+	color:$disableColor;
+
+	&:focus{
+	  border:2px solid $HighlightColor;
+	  // font-size:48rem / $baseFontSize;
+	}
+
+	&.tel{
+		background-image:url(../imgs/ic_phone_ioutline.png);
+		&.has_input{
+			background-image:url(../imgs/ic_phone_fill.png);
+		}
+	}
+	&.vcode{
+		background-image:url(../imgs/ic_digits_outline.png);
+		&.has_input{
+			background-image:url(../imgs/ic_digits_fill.png);
+		}
+	}
+	&.icon_input{
+		background-position:108rem / $baseFontSize center;
+		background-repeat:no-repeat;
+		background-size: 48rem / $baseFontSize;
+		padding-left:180rem / $baseFontSize;
+	}
+	&.has_input{
+		// font-size:48rem / $baseFontSize;
+		color:$HighlightColor;
+	}
+	@at-root .input_block{
+		display:block;
+		width:750rem / $baseFontSize;
+
+		& + .input_block{
+			margin-top: 24rem / $baseFontSize;
+		}
+	}
+}
+
+//button
+.submit_btn{
+	display:inline-block;
+	width:729rem / $baseFontSize;
+	height:220rem / $baseFontSize;
+	margin-top: 20rem / $baseFontSize;
+	outline:none;
+
+	&.btn_newchapter_disable{
+		background:transparent url(../imgs/btn_newchapter_disable.png);
+		background-size:100%;
+	}
+
+	&.btn_newchapter{
+		background:transparent url(../imgs/btn_newchapter.png);
+		background-size:100%;
+
+		&:active{
+			background:transparent url(../imgs/btn_newchapter_press.png);
+			background-size:100%;
+
+		}
+	}
+
+	&.btn_get_disable{
+		background:transparent url(../imgs/btn_get_disable.png);
+		background-size:100%;
+	}
+
+	&.btn_get{
+		background:transparent url(../imgs/btn_get.png);
+		background-size:100%;
+
+		&:active{
+			background:transparent url(../imgs/btn_get_press.png);
+			background-size:100%;
+
+		}
+	}
+}
+.error{
+	color:$errColor !important;
+}
+

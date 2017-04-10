@@ -1,0 +1,19 @@
+// $baseFontSize:100;
+.rule{
+	padding:52rem / $baseFontSize;
+	// background: -moz-radial-gradient(center left, ellipse, #EFE2E8, #E9F2F2);
+	// background: -webkit-radial-gradient(center left, ellipse, #EFE2E8, #E9F2F2);
+	// background-image: radial-gradient(11% 45%, #EFE2E8 11%, #E9F2F2 100%);
+
+	h1{
+		margin-bottom: 50rem / $baseFontSize;
+		text-align: center;
+		font-size: 36rem / $baseFontSize;
+		color: #43403E;
+	}
+	p{
+		font-size: 24rem / $baseFontSize;
+		color: #444759;
+		line-height: 46rem / $baseFontSize;
+	}
+}

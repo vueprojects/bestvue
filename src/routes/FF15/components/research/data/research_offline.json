@@ -1,0 +1,72 @@
+{
+    "research": [
+        {
+            "id": 1,
+            "question": "您从何种渠道获取该影片信息？",
+            "options": [
+                {"label": "购票软件（格瓦拉、猫眼等）", "type": "radio"},
+                {"label": "互联网社交（微博微信、豆瓣等）", "type": "radio"},
+                {"label": "我是《最终幻想》铁粉，当然第一时间知道", "type": "radio"},
+                {"label": "朋友推荐", "type": "radio"},
+                {"label": "大众传媒（电视、广播、报纸杂志等）", "type": "radio"},
+                {"label": "其他", "type": "radio"}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "您选择进电影院观看该影片的原因？",
+            "options": [
+                {"label": "我是《最终幻想》的游戏粉丝！", "type": "radio"},
+                {"label": "听说这部电影的CG动画效果RIO酷炫！", "type": "radio"},
+                {"label": "我觉得它比同时段其他电影好。", "type": "radio"},
+                {"label": "其他", "type": "radio"}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "您和谁一起看该影片？",
+            "options": [
+                {"label": "至爱（情侣/夫妻）", "type": "radio"},
+                {"label": "为了信仰！（《最终幻想15》粉丝组团）", "type": "radio"},
+                {"label": "social（朋友/同事/同学）", "type": "radio"},
+                {"label": "单身狗独乐乐", "type": "radio"},
+                {"label": "其他", "type": "radio"}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "看完后，我不得不说——",
+            "options": [
+                {"label": "场面hin震撼，画面效果极佳！", "type": "radio"},
+                {"label": "CG技术diao炸天，我都快忘了这是一部动画！", "type": "radio"},
+                {"label": "故事情节精彩，被男主的大义和颜值征服了！", "type": "radio"},
+                {"label": "看电影大屏幕才是硬道理", "type": "radio"}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "您平时看电影的习惯是：",
+            "options": [
+                {"label": "到电影票务APP去浏览购票。", "type": "radio"},
+                {"label": "听听伴侣/朋友的推荐，哪部不错就看哪部~", "type": "radio"},
+                {"label": "有时候就是想看看电影，就随便挑一部。", "type": "radio"},
+                {"label": "其他", "type": "radio"}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "您会向周围的人推荐《最终幻想15：王者之剑》吗？",
+            "options": [
+                {"label": "会", "type": "radio"},
+                {"label": "不会", "type": "radio"}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "To：最终幻想15原创团队",
+            "options": [
+                {"label": "《最终幻想15：王者之剑》很好看！", "type": "text"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+
+$codeW:212rem / $baseFontSize;//获取验证码外框宽度
+.head_img{
+	text-align: center;
+    padding-top: 43rem / $baseFontSize;
+
+    img {
+      width: 608rem / $baseFontSize;
+    }
+}
+.get_code_btn{
+	position:absolute;
+	display:inline-block;
+	right:60rem / $baseFontSize;
+	top:18rem / $baseFontSize;
+	background: transparent;
+	width:$codeW;
+	height:60rem/ $baseFontSize;
+	line-height:50rem/ $baseFontSize;
+	border:2px solid $HighlightColor;
+	text-align:center;
+	font-size:24rem / $baseFontSize;
+
+	color:$HighlightColor;
+	outline:none;
+	@include border-box;
+	// line-height:32px;
+
+	&.disable{
+		border:2px solid $disableColor;
+		color:$disableColor;
+	}
+
+}
+// error
+.err_tip{
+	position:absolute;
+	font-family:PingFangSC-Regular;
+	font-size:24rem / $baseFontSize;
+	color:#d0011b;
+	line-height:$inputH;
+
+	&.tel_err{
+		top:0;
+		right:60rem / $baseFontSize;
+		bottom:0;
+	}
+	&.code_err{
+		top:0;
+		right:60rem / $baseFontSize + $codeW + 14rem / $baseFontSize;
+		bottom:0;
+	}
+ }
+///marquee
+.marquee_wrap {
+	// width:670rem / $baseFontSize;
+	// height:160rem / $baseFontSize;
+	height:80px;
+	padding-top: 5px;
+	margin-top: 10rem / $baseFontSize;
+    background:rgba(0,0,0,0.50);
+	border:4px solid $disableColor;
+	box-shadow:0 0 16rem / $baseFontSize 0 #0076ff, inset 0 1px 16rem / $baseFontSize 0 #0076ff;
+	margin:0 auto;
+
+    @include border-box;
+    overflow:hidden;
+
+    font-size:24rem / $baseFontSize;
+	color:$HighlightColor;
+	line-height:24rem / $baseFontSize;
+	text-align:center;
+}
+.item{
+	// margin-bottom:17rem / $baseFontSize
+	margin-bottom:15px;
+	color:red;
+}
+@keyframes mymove{
+	0%   {transform:translateY(0);}
+	100% {transform:translateY(-126px);}
+}
+.red{
+	transition: all 1s linear;
+}
+//click to get
+// 顺时针
+@keyframes spinning1{
+	0%{
+		transform: rotate(0deg);
+	}
+	// 25%{
+	// 	transform: rotate(144deg);
+	// }
+	50%{
+		transform: rotate(180deg);
+	}
+	/* 75%{
+		transform: rotate(288deg);
+	} */
+	100%{
+		transform: rotate(360deg);
+	}
+}
+// 逆时针
+@keyframes spinning2{
+	0%{
+		transform: rotate(360deg);
+	}
+	// 25%{
+	// 	transform: rotate(144deg);
+	// }
+	50%{
+		transform: rotate(180deg);
+	}
+	/* 75%{
+		transform: rotate(288deg);
+	} */
+	100%{
+		transform: rotate(0deg);
+	}
+}
+@mixin amimate($spinningName){
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	animation:$spinningName 2s linear infinite;
+	-webkit-animation:$spinningName 2s linear infinite;
+	-moz-animation:$spinningName 2s linear infinite;
+	-ms-animation:$spinningName 2s linear infinite;
+	-o-animation:$spinningName 2s linear infinite;
+	background-size:100%;
+}
+
+$turnSize:534rem / $baseFontSize;
+.turntable_wrap{
+	position: relative;
+	width:$turnSize;
+	height:$turnSize;
+	margin: 10rem / $baseFontSize auto 0;
+}
+.turn_outside{
+	 background:url(../imgs/ring_outter_2.png) no-repeat center,
+				url(../imgs/ring_outter_1.png) no-repeat center;
+	@include amimate(spinning1);
+
+}
+.turn_inside{
+	background:url(../imgs/ring_inner_2.png) no-repeat center,
+				url(../imgs/ring_inner_1.png) no-repeat center;
+	@include amimate(spinning2);
+}
+
+.turn_circles{
+	background:url(../imgs/ring_circles_2.png) no-repeat center,
+				url(../imgs/ring_circles_1.png) no-repeat center;
+	@include amimate(spinning1);
+}
+.turn_text{
+	position: absolute;
+	left:50%;
+	top:50%;
+	@include translate50;
+	font-size:48rem / $baseFontSize;
+	color:#b8e986;
+	text-shadow:0 0 16rem / $baseFontSize #b8e986;
+	text-align:center;
+    font-weight: bold;
+}
+.turntable{
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	width:534rem / $baseFontSize;
+	height:534rem / $baseFontSize;
+	line-height:534rem / $baseFontSize;
+	margin:0 auto;
+	background:url(../imgs/ring_outter_2.png) no-repeat center,
+				url(../imgs/ring_outter_1.png) no-repeat center,
+				url(../imgs/ring_inner_2.png) no-repeat center,
+				url(../imgs/ring_inner_1.png) no-repeat center,
+				url(../imgs/ring_circles_2.png) no-repeat center,
+				url(../imgs/ring_circles_1.png) no-repeat center;
+	background-size:100%;
+	// font-family:PingFangSC-Regular;
+	
+}
+.load_tip{
+	// width:324rem / $baseFontSize;
+	height:100rem / $baseFontSize;
+	margin:47rem / $baseFontSize auto 32rem / $baseFontSize;
+	font-size:36rem / $baseFontSize;
+	color:#cde4ff;
+	text-align:center;
+	line-height:150%;
+}
+.rule{
+	font-size:24rem / $baseFontSize;
+	color:#9b9b9b;
+	text-align:center;
+	margin-bottom: 64rem / $baseFontSize;
+}

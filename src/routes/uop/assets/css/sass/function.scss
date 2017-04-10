@@ -1,0 +1,7 @@
+//像素赋值
+$baseRem: 100;
+
+@function cPX($px){
+	@return $px/$baseRem;
+}
+

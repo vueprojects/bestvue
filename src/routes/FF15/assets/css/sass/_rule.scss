@@ -1,0 +1,99 @@
+$ruleW:664rem / $baseFontSize;
+$ruleH:1116rem / $baseFontSize;
+$ruleOrnament:32rem / $baseFontSize + 11rem / $baseFontSize;
+.rule_wrap{
+	position: absolute;
+	top:43rem / $baseFontSize;
+	left:0;
+	right:0;
+	width:$ruleW;
+	height:$ruleH;
+	margin:0 auto;
+	// overflow-y:auto;
+	@include border-box;
+
+	@at-root .rule_ornament{
+		position: fixed;
+		top:43rem / $baseFontSize;
+		left:0;
+		right:0;
+		background:rgba(#041030,0.88);
+		border:1px solid #508fd8;
+		box-shadow:0 0 32rem / $baseFontSize 0 #508fd8;
+		width:$ruleW;
+		height:$ruleH;
+		margin:0 auto;
+		@include border-box;
+		z-index:1;
+
+		&::after{
+			content:"";
+			position: absolute;
+			top:-$ruleOrnament;
+			right:-$ruleOrnament;
+			bottom:-$ruleOrnament;
+			left:-$ruleOrnament;
+			width:$ruleW + $ruleOrnament * 2;
+			height:$ruleH + $ruleOrnament * 2;
+			background:url(../imgs/dia_rule_frame_ul.png) no-repeat left top,
+					url(../imgs/dia_rule_frame_ur.png) no-repeat right top,
+					url(../imgs/dia_rule_frame_dl.png) no-repeat left bottom,
+					url(../imgs/dia_rule_frame_dr.png) no-repeat right bottom;
+			background-size:192rem / $baseFontSize;
+		}
+
+	}
+	.rule_btn{
+		$btnH:56rem / $baseFontSize;
+
+		position: absolute;
+		left:0;
+		right:0;
+		bottom:- $btnH / 2;
+		width:255rem / $baseFontSize;
+		height:$btnH;
+		line-height:$btnH;
+		background:rgba(#aad0ff,0.9);
+		box-shadow:0 0 32px 0 #508fd8;
+		z-index:3;
+		margin:0 auto;
+		text-align: center;
+		font-size:24rem / $baseFontSize;
+		color:#ffffff;
+	}
+	.content_wrap{
+		position: relative;
+		width:100%;
+		height:100%;
+		padding:65rem / $baseFontSize;
+		z-index:2;
+		height:$ruleH - 65rem / $baseFontSize;
+		@include border-box;
+	    overflow-y: auto;
+
+		.content{
+			width:100%;
+			height:100%;
+			margin:0 auto;
+			font-family:PingFangSC-Regular;
+			font-size:24rem / $baseFontSize;
+			color:#aad0ff;
+			line-height:180%;
+
+			h1{
+				font-size:32rem / $baseFontSize;
+				line-height:180%;
+				text-align:center;
+				margin-bottom: 32rem / $baseFontSize;
+			}
+			h3{
+				font-weight: bold;
+				font-size: 30rem / $baseFontSize;
+				margin-top: 20rem / $baseFontSize;
+			}
+			p + p{
+				margin-top: 10rem / $baseFontSize;
+			}
+		}
+	}
+}

@@ -1,0 +1,221 @@
+$baseFontSize: 100;
+.research-container {
+  width: 100%;
+  height: 100%;
+  font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  font-size: 28rem/$baseFontSize;
+  color: #ffffff;
+}
+
+.research-body {
+  position: relative;
+  margin: -28rem/$baseFontSize 11rem/$baseFontSize 0;
+  width: 728rem/$baseFontSize;
+  height: 1019rem/$baseFontSize;
+  background: url('./images/dia_bubble_2.svg') no-repeat;
+  background-size: cover;
+}
+
+.body-wrapper {
+  padding: 60rem/$baseFontSize 76rem/$baseFontSize 0;
+  font-size: 32rem/$baseFontSize;
+  color: #99bcea;
+  line-height: 2;
+}
+
+
+/*调查问卷 选项部分*/
+
+.body-radios {
+  padding-left: 22rem/$baseFontSize;
+}
+
+.body-radios label {
+  display: block;
+}
+
+.radio-last {
+  color: #687a8e;
+}
+
+.body-radios .option-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 460rem/$baseFontSize;
+}
+
+.body-radios input[type="radio"] {
+  display: none;
+}
+
+.body-radios input {}
+
+.body-radios span.icon-checked {
+  display: inline-block;
+  width: 64rem/$baseFontSize;
+  height: 64rem/$baseFontSize;
+  vertical-align: top
+}
+
+.ff15-check+.icon-checked:before {
+  content: '';
+  display: inline-block;
+  width: 64rem/$baseFontSize;
+  height: 64rem/$baseFontSize;
+  background: url(./images/radio.png) no-repeat;
+  background-size: 64rem/$baseFontSize;
+  background-position: 0 -68rem/$baseFontSize;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.ff15-check:checked+.icon-checked:before {
+  background-position: 0 0;
+}
+
+.other-option {
+  display: inline-block;
+  width: 360rem/$baseFontSize;
+  height: 48rem/$baseFontSize;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  vertical-align: top;
+  background: transparent;
+  border-bottom: 1rem/$baseFontSize solid #687a8e;
+  font-size: 32rem/$baseFontSize;
+  color: #687a8e;
+}
+
+.other-option:focus {
+  border: none;
+  border-bottom: 1rem/$baseFontSize solid #687a8e;
+}
+
+
+/*调查问卷 一句话简单点评页*/
+
+.body-sentence {}
+
+.body-sentence .sentence-ta {
+  box-sizing: border-box;
+  border: 4rem/$baseFontSize solid #687a8e;
+  width: 574rem/$baseFontSize;
+  height: 654rem/$baseFontSize;
+  max-width: 574rem/$baseFontSize;
+  max-height: 654rem/$baseFontSize;
+  resize: none;
+  font-size: 36rem/$baseFontSize;
+  background: transparent;
+  color: #687a8e;
+}
+
+
+/*调查问卷 用户信息提交页*/
+
+.body-info {}
+
+.body-info>div {
+  position: relative;
+  margin-top: 24rem/$baseFontSize;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.50);
+  border: 4rem/$baseFontSize solid #687a8e;
+  box-shadow: 0 0 16rem/$baseFontSize 0 #0076ff, inset 0 1rem/$baseFontSize 16rem/$baseFontSize 0 #0076ff;
+  width: 580rem/$baseFontSize;
+  height: 96rem/$baseFontSize;
+  line-height: 96rem/$baseFontSize;
+}
+
+.body-info>div>input {
+  padding-left: 100rem/$baseFontSize;
+  width: 500rem/$baseFontSize;
+  height: 48rem/$baseFontSize;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  font-size: 32rem/$baseFontSize;
+  color: #cde4ff;
+}
+
+.body-info i {
+  display: inline-block;
+  position: absolute;
+  top: 18rem/$baseFontSize;
+  left: 20rem/$baseFontSize;
+  width: 64rem/$baseFontSize;
+  height: 64rem/$baseFontSize;
+}
+
+//姓名图标
+.body-info input+i.info-name-icon {
+  background: url('./images/ic_person_outline.svg') no-repeat;
+  background-size: cover;
+}
+
+.body-info input:focus+i.info-name-icon {
+  background: url('./images/ic_person_fill.svg') no-repeat;
+  background-size: cover;
+}
+
+//手机号码图标
+.body-info input+i.info-cellphone-icon {
+  background: url('./images/ic_phone_outline.svg') no-repeat;
+  background-size: cover;
+}
+
+.body-info input:focus+i.info-cellphone-icon {
+  background: url('./images/ic_phone_fill.svg') no-repeat;
+  background-size: cover;
+}
+
+//地址图标
+.body-info input+i.info-address-icon {
+  background: url('./images/ic_place_outline.svg') no-repeat;
+  background-size: cover;
+}
+
+.body-info input:focus+i.info-address-icon {
+  background: url('./images/ic_place_fill.svg') no-repeat;
+  background-size: cover;
+}
+
+
+/*调查问卷 按钮部分*/
+
+.btn-wrapper {
+  position: absolute;
+  width: 502rem/$baseFontSize;
+  height: 56rem/$baseFontSize;
+  right: 50%;
+  bottom: 76rem/$baseFontSize;
+  margin-right: -251rem/$baseFontSize;
+}
+
+.btn-re {
+  display: inline-block;
+  opacity: 0.9;
+  width: 240rem/$baseFontSize;
+  height: 56rem/$baseFontSize;
+  color: #fff;
+  text-align: center;
+  line-height: 56rem/$baseFontSize;
+  box-sizing: border-box;
+  box-shadow: 0 0 32rem/$baseFontSize 0 #508fd8;
+}
+
+.btn-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2rem/$baseFontSize solid #aacfff;
+}
+
+.btn-next,
+.btn-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #aad0ff;
+}

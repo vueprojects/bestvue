@@ -1,0 +1,68 @@
+// 活动页面
+$baseFontSize:100;
+.activity{
+    margin:60rem / $baseFontSize 55rem / $baseFontSize;
+    background: #fff;
+    box-shadow: 0 5px 19px 0 rgba(186,186,186,0.50);
+    border-radius: 12rem / $baseFontSize;
+    padding-top:24rem / $baseFontSize;
+
+    h1{
+        width:256rem / $baseFontSize;
+        height:80rem / $baseFontSize;
+        margin: 24rem / $baseFontSize auto 70rem / $baseFontSize;
+
+        img{
+            width:100%;
+            // margin-top: 24rem / $baseFontSize;
+        }
+
+        
+    }
+    .title{
+        position:relative;
+        font-size: 30rem / $baseFontSize;
+        text-align: center;
+        
+
+        &:after{
+            content: '';
+            position:absolute;
+            display: block;
+            left:0;
+            right:0;
+            bottom:-24rem / $baseFontSize - 6rem / $baseFontSize;
+            width:40rem / $baseFontSize;
+            height: 6rem / $baseFontSize;
+            background: #E1E8ED;
+            margin:0 auto;
+        }
+
+    }
+    .intro{
+        font-size: 24rem / $baseFontSize;
+        color: #595A61;
+        line-height: 42rem / $baseFontSize;
+        padding:0 48rem / $baseFontSize;
+        margin-bottom: 32rem / $baseFontSize;
+
+    }
+    .act_list{
+        padding:40rem / $baseFontSize;
+
+        li{
+            background: #EAEBF0;
+            margin-bottom: 20rem / $baseFontSize;
+
+            & > img{
+                width:100%;
+            }
+            & > p{
+                padding:22rem / $baseFontSize 25rem / $baseFontSize;
+                font-size: 24rem / $baseFontSize;
+                color: #000;
+                line-height: 1.2;
+            }
+        }
+    }
+}

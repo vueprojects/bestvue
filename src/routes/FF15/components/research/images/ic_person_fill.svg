@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_person_fill</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Slices" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_person_fill">
+            <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+            <path d="M24,24 C28.42,24 32,20.42 32,16 C32,11.58 28.42,8 24,8 C19.58,8 16,11.58 16,16 C16,20.42 19.58,24 24,24 Z M24,28 C18.66,28 8,30.68 8,36 L8,40 L40,40 L40,36 C40,30.68 29.34,28 24,28 Z" id="Shape" fill="#CDE4FF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

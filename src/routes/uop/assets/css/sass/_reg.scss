@@ -1,0 +1,179 @@
+$codeW:212rem / $baseFontSize;//获取验证码外框宽度
+$inputH:74rem / $baseFontSize;
+$inputRadius:51rem / $baseFontSize;
+$inputFSize:22rem / $baseFontSize;
+$submitBtnH:88rem / $baseFontSize;
+$checkboxW:24rem / $baseFontSize;
+// $baseFontSize:100;
+
+.reg{
+
+	.logo{
+		width:153rem / $baseFontSize;
+		height:165rem / $baseFontSize;
+		margin: 74rem / $baseFontSize auto 39rem / $baseFontSize;
+
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+	h1{
+		text-align: center;
+		font-size: 36rem / $baseFontSize;
+		color:#43403E;
+	}
+	h2{
+		margin-top: 15rem / $baseFontSize;
+		text-align: center;
+		font-size: 26rem / $baseFontSize;
+		color:#43403E;
+	}
+	@at-root .reg_form{
+		position: relative;
+		width:640rem / $baseFontSize;
+		margin:52rem / $baseFontSize auto 0;
+
+		.error{
+			color:#E9403B;
+		}
+
+		input[type=text]{
+			height: $inputH;
+			line-height: $inputH;
+			background: #F7F7F7;
+			border: 1px solid #C6D0D2;
+			box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.27);
+			border-radius: $inputRadius;
+			padding-left:32rem / $baseFontSize;
+			font-size: $inputFSize;
+			outline: none;
+			@include border-box;
+
+			&.tel_input{
+				width:100%;
+				background:#F7F7F7 url('../imgs/icon_phone.png') no-repeat 32rem / $baseFontSize center;
+				background-size:16rem / $baseFontSize 22rem / $baseFontSize;
+				padding-left: 65rem / $baseFontSize;
+			}
+		}
+		.code_div{
+			margin-top: 34rem / $baseFontSize;
+			&:after{
+				content: "";
+				@include clear;
+			}
+		}
+		.code_input{
+			width: 300rem / $baseFontSize;
+		}
+		.send_btn{
+			width:300rem / $baseFontSize;
+			height: $inputH;
+			background: #fff;
+			border: 2px solid #E63F3A;
+			border-radius: $inputRadius;
+			font-size: $inputFSize;
+			color: #E9403B;
+			float: right;
+			outline: none;
+
+			&:active{
+				background: darken(#fff,3%);
+				border: 2px solid darken(#E63F3A,10%);
+				color: darken(#E9403B,10%);
+			}
+			&:disabled{
+				border: 2px solid;
+				color:#ccc;
+			}
+		}
+		.err_text{
+			position:absolute;
+			left:0;
+			right:0;
+			text-align: center;
+			color: #E63F3A;
+			margin-top: 30rem / $baseFontSize;
+
+			.icon_warn{
+				display: inline-block;
+				width:30rem / $baseFontSize;
+				height: 30rem / $baseFontSize;
+				line-height: 30rem / $baseFontSize;
+				color:#E63F3A;
+				border:1px solid;
+				border-radius: 50%;
+				font-style: normal;
+				font-size: 20rem / $baseFontSize;
+				margin-right: 10rem / $baseFontSize;
+			}
+		}
+		.login_btn{
+			width:100%;
+			height: $submitBtnH;
+			line-height: $submitBtnH;
+			background-image: linear-gradient(-49deg, #FF6464 0%, #FE4E4C 100%);
+			box-shadow: 0 5px 12px 0 rgba(255,149,121,0.48);
+			border-radius: 100px;
+			margin-top: 248rem / $baseFontSize;
+			font-size: 28rem / $baseFontSize;
+			color: #FFF;
+			text-align: center;
+			outline:none;
+
+			&:active{
+				background-image: linear-gradient(-49deg, darken(#FF6464,10%) 0%, darken(#FE4E4C,10%) 100%);
+			}
+			&:disabled{
+				background-image: linear-gradient(-49deg, lighten(#FF6464,10%) 0%, lighten(#FE4E4C,10%) 100%);
+			}
+		}
+		.rule_text{
+			margin-top: 45rem / $baseFontSize;
+			font-size: 20rem / $baseFontSize;
+			color: #444759;
+			text-align: center;
+
+			input[type="checkbox"] {
+				display: none;
+
+				& + label{
+					cursor:pointer;
+					margin-right: 15rem / $baseFontSize;
+
+					span{
+						display: inline-block;
+						vertical-align: middle;
+						width: $checkboxW; 
+						height: $checkboxW;
+						// border: 2px solid #888; 
+						border-radius: 2px; 
+						background: radial-gradient(#eee, #aaa);
+					}
+				}
+				&:checked{
+					& + label span{
+						background: #FE8B4E;
+						color: #fff;
+
+						&:before{
+							content: "✓";
+							display: inline-block;
+							width:$checkboxW;
+							text-align: center;
+							font-size: 24rem / $baseFontSize; 
+							// font-weight: bold;
+							line-height: 5rem / $baseFontSize;
+						}
+
+					}
+
+				}
+			}
+		}
+
+
+	}
+
+}

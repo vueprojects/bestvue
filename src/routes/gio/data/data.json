@@ -1,0 +1,269 @@
+{
+    "activities": [
+        {
+            "actid": 121804,
+            "href": "/huodong/121804",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2016/12/05_28/1480924514.jpg",
+            "interested_num": 1299,
+            "price": 298,
+            "intro": "五彩缤纷过春天｜鲜花丛中的棒棒糖蛋糕，送美甲美睫",
+            "rec": "美味与美丽一起，开春甜蜜礼物",
+            "location": "花下生活馆",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": true,
+            "before": 3,
+            "comment": "",
+            "tickets": [
+                {
+                    "t_id": 1,
+                    "t_name": "双人棒棒糖蛋糕",
+                    "t_des": "单人套餐，含8个棒棒糖蛋糕",
+                    "t_price": 298
+                },
+                {
+                    "t_id": 2,
+                    "t_name": "单人棒棒糖蛋糕+手提花袋",
+                    "t_des": "单人套餐，含8个棒棒糖蛋糕+鲜花+花袋一份",
+                    "t_price": 308
+                },
+                {
+                    "t_id": 3,
+                    "t_name": "单人棒棒糖蛋糕",
+                    "t_des": "单人套餐，含8个棒棒糖蛋糕",
+                    "t_price": 388
+                },
+                {
+                    "t_id": 4,
+                    "t_name": "双人棒棒糖蛋糕+手提花袋",
+                    "t_des": "双人套餐，含16个棒棒糖蛋糕+鲜花+2花袋一份",
+                    "t_price": 588
+                }
+            ]
+        },
+        {
+            "actid": 118363,
+            "href": "/huodong/118363",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2017/02/15_90/1487154203.jpg",
+            "interested_num": 349,
+            "price": 79,
+            "intro": "早春行|行摄阳澄湖莲花岛·莫负春日好风光",
+            "rec": "水岸望去漫天荷叶，岛上一片草长莺飞",
+            "location": "宜山路地铁站肯德基对面",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 0,
+            "refund": true,
+            "before": 2,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "总费用",
+                    "t_des": "包车+领队+保险",
+                    "t_price": 79
+                }
+            ]
+        },
+        {
+            "actid": 125091,
+            "href": "/huodong/125091",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2017/02/15_94/1487155090.jpg",
+            "interested_num": 661,
+            "price": 65,
+            "intro": "来约会吧单身交友会 · 带Ta一起看春暖花开",
+            "rec": "春暖花开的季节，寻一个明媚温暖的Ta",
+            "location": "上海市子鱼居酒店（南京东路店）（外滩附近）",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 0,
+            "refund": false,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "男生票",
+                    "t_des": "",
+                    "t_price": 65
+                }
+            ]
+        },
+        {
+            "actid": 121542,
+            "href": "/huodong/121542",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2016/11/29_64/1480400443.jpg",
+            "interested_num": 368,
+            "price": 80,
+            "intro": "GET A LIFE & 桃花源.迹·薇薇安",
+            "rec": "时尚教母的环保之战",
+            "location": "chi K11美术馆",
+            "service": [
+                "随时去",
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": false,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "单人通票",
+                    "t_des": "（一人一票一次入场有效，原价100元）",
+                    "t_price": 80
+                }
+            ]
+        },
+        {
+            "actid": 123718,
+            "href": "/huodong/123718",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2016/08/31_38/1472612231.png",
+            "interested_num": 225,
+            "price": 180,
+            "intro": "新奇体验馆 · 邀请你感受神秘的时空洞",
+            "rec": "20种不同体验结合，总能找到你的最爱",
+            "location": "奇思妙想的时空洞",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": true,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "单人票",
+                    "t_des": "",
+                    "t_price": 180
+                }
+            ]
+        },
+        {
+            "actid": 74773,
+            "href": "/huodong/74773",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2016/12/06_52/1481013284.jpg",
+            "interested_num": 786,
+            "price": 88,
+            "intro": "3小时实地摄影课 | 助你get单反基础技能",
+            "rec": "人气爆棚摄影基础课，做朋友圈最会拍照的人",
+            "location": "伟泰大厦8楼",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": true,
+            "before": 0,
+            "comment": "0代表购买后未参加随时可退",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "摄影基础学习+手机修图基础",
+                    "t_des": "摄影基础学习含我们编写的摄影学习启蒙资料",
+                    "t_price": 88
+                },
+                {
+                    "t_id": 2,
+                    "t_name": "预约一台单反学习",
+                    "t_des": "先了解一下原理和操作，再有针对性的选择相机",
+                    "t_price": 99
+                }
+            ]
+        },
+        {
+            "actid": 126893,
+            "href": "/huodong/126893",
+            "url": "https://og00pefz8.qnssl.com/data/public/poi/2017/01/16_16/14845631567014965.png",
+            "interested_num": 719,
+            "price": 100,
+            "intro": "樱你而来·2017上海樱花节首届女子10公里路跑",
+            "rec": "专为女性打造路跑赛事，万里挑一就是你",
+            "location": "顾村公园",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 0,
+            "refund": true,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "个人报名费用",
+                    "t_des": "包含赛事服装、奖牌、号码布、女神花环、顾村公园门票、菲灵洗护套装、赛事保险、逆天补给和诸多惊喜",
+                    "t_price": 100
+                }
+            ]
+        },
+        {
+            "actid": 123876,
+            "href": "/huodong/123876",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2017/02/09_91/1486631323.jpg",
+            "interested_num": 849,
+            "price": 120,
+            "intro": "将思念与情愫交付｜千代纸蝴蝶相框DIY",
+            "rec": "你若盛开，蝴蝶自来",
+            "location": "Starfish工作室",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": false,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "和风·蝴蝶相框",
+                    "t_des": "",
+                    "t_price": 120
+                }
+            ]
+        },
+        {
+            "actid": 121875,
+            "href": "/huodong/121875",
+            "url": "https://og00pefz8.qnssl.com/data/public/activity/2017/02/10_57/1486724830.jpg",
+            "interested_num": 506,
+            "price": 12,
+            "intro": "上海植物园|赏日本樱花 踏春",
+            "rec": "腊梅初绽·幽香四溢使人悦",
+            "location": "上海植物园",
+            "service": [
+                "认证商户",
+                "天天客服"
+            ],
+            "status": 1,
+            "refund": true,
+            "before": 0,
+            "comment": "",
+            "tickets":[
+                {
+                    "t_id": 1,
+                    "t_name": "上海植物园 - 成人票",
+                    "t_des": "1.含上海植物园成人票1张。7:00～17:00（售票时间）指定游玩日1天内有效罗城路151号上海植物园4号门",
+                    "t_price": 12
+                },
+                {
+                    "t_id": 2,
+                    "t_name": "上海植物园+展览温室+兰室+盆景园 - 成人联票",
+                    "t_des": "1.含上海植物园成人票1张；2.含展览温室成人票1张；3.含兰室成人票1张；4.含盆景园成人票1张。7:00～17:00指定游玩日1天内有效罗城路151号上海植物园4号门",
+                    "t_price": 32
+                }
+            ]
+        }
+    ]
+}
